@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contActivity"
+    android:orientation="vertical"
+    android:background="@drawable/img">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginEnd="20dp"
+        android:text="Contact Us"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="40dp"
+        android:text="To contact us, please send an email to contact.india@bmw.in or to reach our Customer Interaction Centre, dial toll free number 1800 102 2269 from Monday to Saturday 09:00 hours to 18:30 hours."
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="20dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold">
+
+</TextView>
+
+
+
+</LinearLayout>
